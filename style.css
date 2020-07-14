@@ -19,12 +19,26 @@
   h1 {
     text-align: center;
     padding: 1.5rem 2.5rem;
+    background-image: linear-gradient(120deg, #d41ac5 0%, #175dd8 100%);
+    margin: 0 0 2rem 0;
+    font-size: 2.5rem;
+    color: white;
+  }
+
+  h2 {
+    text-align: center;
+    padding: 1rem;
     background-image: linear-gradient(120deg, #fbc2eb 0%, #a6c1ee 100%);
     margin: 0 0 2rem 0;
     font-size: 1.5rem;
     color: white;
   }
   
+  input {
+    margin: 2rem  0 0 0;
+    font-size: 4rem;
+  }
+
   img {
     display: block;
     margin: 1rem auto;

@@ -5,10 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ghibli App</title>
     <link href="https://fonts.googleapis.com/css?family=Dosis:400,700" rel="stylesheet" />
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
     <link href="style.css" rel="stylesheet" />
 </head>
 <body>
-    <div id="root"></div>
+    <div id="root">
+        <img src="logo.png"></img>
+        <h1>First API app</h1>
+        <h3>In this app, I try to get an API from "https://ghibliapi.herokuapp.com/films" and rendered in the page when a User press the button below</h3>
+        <input id="boton" type="button" class="btn btn-primary" value="GET API" onclick="getApi()">
+    </div>
     <script src="scripts.js"></script>
 </body>
 </html>
